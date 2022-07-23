@@ -107,6 +107,7 @@ r:AddToggle(
                                 n.Name == "Cash" and n:IsA("MeshPart") or n.Name == "Steal" and n:IsA("Part") or
                                     n.Name == "SmashCash" and n:IsA("Part") or
                                     n.Name == "ATM" and n:IsA("Part")
+                                    n.Name == "StealTV" and n:IsA("Part")
                              then
                                 wait(0.01)
                                 n:FindFirstChildOfClass("Script").Event:FireServer()
